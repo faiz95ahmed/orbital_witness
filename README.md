@@ -1,8 +1,8 @@
 # Instructions
-Build with docker and run with `docker run -p 8000:8000 <IMAGE_ID>`
+Build with docker and run with `docker run -p HOST_PORT:8000 <IMAGE_ID>`
 
 # API Reference
-
+Access at `http://localhost:HOST_PORT`
 ## /entries/ (POST)
 Refer to the json file you provided me with. Sample below
 ```
